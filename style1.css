@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+
+/* General page formatting
+-------------------------------------------------- */
+body																{ margin:0 2px !important; padding:0 !important; }
+
+/* --- general settings --- */
+.x-bg, .x-bg-02												{ width:100% !important; }
+.x-bg *															{ margin:0; padding:0; vertical-align:top; }
+.x-bg img														{ border:0; }
+
+/* --- content area bg and width --- */
+.x-content, #x-head, #x-foot, .x-vaca    			{ position:relative; margin:0 auto; }
+#x-head-wrap, #x-foot-wrap				    		{ width:100%; position:relative; margin:0 auto; }
+
+/* --- left column --- */
+#LeftPanel, #LeftPanel .x-tbar,
+#LeftPanel .x-main-ttop, #LeftPanel .x-tmid,
+#LeftPanel .x-tbtm, #LeftPanel .x-prom      		{ display:block; background:transparent none; overflow:hidden; }
+
+/* --- main column --- */
+#CentralArea, #x-main, #x-main-fcat,
+#x-main-feat, #x-main .x-tbar,
+#x-main .x-ttop, #x-main .x-tmid,
+#x-main .x-tbtm, #x-main-tabs			       	 	{ display:block; overflow:hidden; }
+
+/*--- columns float and spacing --- */
+#CentralArea, #x-main                       			{ margin:0 !important; float:right; vertical-align:top; }
+#CentralArea #x-main									{ padding:0 !important; }
+#LeftPanel														{ margin:0 !important; float:left; vertical-align:top !important; background-color:transparent; }
+
+/* --- ebay content settings general do not change --- */
+#CentralArea .r3, .fpcc span.keywordClass		{ background-color:#FFF; } /* gallery bg */
+#CentralArea .r3_cm					        			{ padding:10px; }
+#CentralArea .ctrlbr										{ padding:3px 10px; }
+#CentralArea .cmpBr					        			{ padding:0 10px; }
+#CentralArea span.pdmt img		            		{ vertical-align:middle; }
+#CentralArea span.tpr, #CentralArea a.tpr		{ font-size:11px; line-height:15px; padding-top:0; padding-bottom:0; }
+#TopPromoArea							   				{ display:none !important; margin:0 !important; padding:0 !important; }
+.x-bg .x-ctr                                					{ text-align:center !important; margin:0 auto !important; max-width:960px !important; }
+#x-head .ttl, #x-head .link, #x-head .all_cats,
+#x-head .cnt, #x-head .v4acpcont,
+#LeftPanel .ttl, #LeftPanel .link,
+#LeftPanel .all_cats,
+#LeftPanel .cnt,
+#LeftPanel .v4acpcont,
+#x-side-cats ul.lev1 li br,
+#x-side-cats ul.lev2 li br, .x-hide						{ display:none !important; }
+
+/* --- custom content settings general --- */
+.x-tmid, .x-tmid p, .x-tmid li              				{ text-align:left; line-height:18px; }
+#CentralArea p, #x-main p,
+#x-main .x-tmid ul, #x-main .x-tbox ul			{ padding:0 0 15px; }
+#CentralArea ul, #x-head ul, #foot ul,
+#LeftPanel ul, #x-main ul		            			{ list-style-type:none; }
+#CentralArea li, #x-main li				    			{ padding:0 0 5px 15px; }
+#x-head-menu li	                            			{ display:inline; float:left; background:transparent none; padding:0; }
+#x-main .x-tmid ol											{ padding:0 15px 15px 25px; }
+#x-main .x-tmid ol li										{ background:transparent none; padding:0 0 5px 0; }
+#x-head *, #x-foot *,
+#LeftPanel *, #x-main *                     			{ text-decoration:none; }
+#x-main .x-tmid a, #x-main .x-tmid a:link,
+#x-main .x-tmid a:active,
+#x-main .x-tmid a:visited,
+#x-main .x-tmid a:hover								{ text-decoration:underline; }
+#x-head-menu, #x-head-srch,
+#x-side-srch, .x-tmid, .x-tins,
+#x-main h2, #x-temp-gall								{ overflow:hidden; }
+#x-head-srch-bttn, #x-head-menu li,
+#LeftPanel li, #x-side-news-bttn,
+#x-main-tabs img, #x-gall-thmb img      			{ cursor:pointer; }
+#LeftPanel ul li a, #LeftPanel ul li span,
+#x-main-fcat a, #x-main-fcat a img,
+#x-main-tabs img, #x-main-feat .x-fp *       	{ display:block; }
+#x-main-ttrm-01											{ display:block; visibility:visible; }
+#x-main-ttrm-02, #x-main-ttrm-03,
+#x-main-ttrm-04, #x-main-ttrm-05,
+#x-main-ttrm-06, #x-main-ttrm-07,
+#x-main-ttrm-08  					            			{ display:none; }
+
+/* --- design signature link --- */
+#x-topc span, #x-topc span a							{ color:#888 !important; text-decoration:none !important; }
+#x-topc span a:hover										{ color:#1142BD !important; text-decoration:underline !important; }
