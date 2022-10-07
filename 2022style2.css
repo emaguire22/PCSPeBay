@@ -28,7 +28,7 @@ img{ max-width:100%;}
 /* --- content area bg and width --- */
 .x-content, #x-head, #x-foot    						{ width:100%; }
 .x-bg-02, .x-content, #x-head, #x-foot			{ max-width:1250px; }
-.x-content															{ padding:13px 0 8px !important; overflow:hidden; }
+.x-content															{ padding:0px 0 8px !important; overflow:hidden; }
 .x-bg td [width="13"]											{ display:none !important; }
 
 /* --- left column width --- */
