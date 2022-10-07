@@ -254,7 +254,7 @@ filter: transparent; /* IE6-9 */
 -------------------------------------------------- */
 /* --- side categories menu with divs --- */
 .x-bg #LeftPanel .lev1										{ margin:0 3px 3px; }
-.x-bg #LeftPanel .lev1 li									{ border:1px solid #191919; margin-top:2px; } /* left cats menu optional dividers */
+.x-bg #LeftPanel .lev1 li									{ border:10px solid #191919; margin-top:2px; } /* left cats menu optional dividers */
 .x-bg #LeftPanel .lev1 li a,
 .x-bg #x-side-cats ul li a									{ color:#000; } /* left cats menu links */
 .x-bg #LeftPanel .lev1 li a:hover,
