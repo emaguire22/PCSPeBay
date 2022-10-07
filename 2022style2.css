@@ -65,7 +65,7 @@ img{ max-width:100%;}
 #x-template #LeftPanel .x-temp              		{ display:block !important; } /* promo boxes on template only */
 
 /* --- global fonts --- */
-.x-bg *                                     							{ font-family:Khand, Tahoma, Sans-serif; text-decoration:none; }
+.x-bg *                                     							{ font-family:visby_cfbold; text-decoration:none; }
 .x-bg, .x-bg p, .x-bg a, .x-bg li, .x-bg table,
 .x-bg form select												{ font-size:15px; color:#000; word-wrap:break-word; }
 .x-bg a:link, .x-bg a:visited, .x-bg a:active	{ color:#000; }
@@ -121,7 +121,7 @@ img{ max-width:100%;}
 /* --- title bars --- */
 #LeftPanel .x-ttba											{ width:auto; text-align:left; margin:0; padding:8px 10px 6px; } /* side title bars */
 #x-main .x-ttba													{ width:auto; text-align:left; margin:0; padding:8px 10px 6px; } /* main title bars */
-.x-bg .x-ffac, .x-bg .x-ffac p, .x-bg .x-ffac a	{ font-family:Khand, Tahoma, Sans-serif; text-decoration:none; } /* accent font family */
+.x-bg .x-ffac, .x-bg .x-ffac p, .x-bg .x-ffac a	{ font-family:visby_cfbold; text-decoration:none; } /* accent font family */
 .x-bg .x-fftb, .x-bg .x-fftb p, .x-bg .x-fftb a	{ color:#FFF; font-size:22px; line-height:25px; font-weight:500; text-transform:uppercase; letter-spacing:0.05em; } /* title bar font settings */
 .x-bg #x-main .x-fftb										{ /* text-align:center; */ }
 .x-bg .x-ttba .x-tins											{ padding:0 !important; }
@@ -218,7 +218,7 @@ filter: transparent; /* IE6-9 */
 .x-bg #x-head-wrap-02 #x-head-menu		{ float:right; margin-top:28px; clear:right; background:transparent left bottom repeat-x; }
 @media screen and (max-width:1300px)			{ .x-bg #x-head-wrap-02 #x-head-menu { margin-right:10px; } }
 @media screen and (max-width:1000px)			{ .x-bg #x-head-wrap-02 #x-head-menu { display:none; } }
-.x-bg #x-head-wrap-02 #x-head-menu a						{ color:#FFF; font:500 20px/40px Khand, Tahoma, Sans-serif; text-transform:uppercase; display:inline-block; margin:0 15px; padding:0; }
+.x-bg #x-head-wrap-02 #x-head-menu a						{ color:#FFF; font:500 20px/40px visby_cfbold; text-transform:uppercase; display:inline-block; margin:0 15px; padding:0; }
 .x-bg #x-head-wrap-02 #x-head-menu a:hover			{ color:#A4C337;  text-decoration:none; background:transparent url("https://sunandfuninoc.com/sites/jx/wissem/PcServerAndParts/images/x-head-mbtm.png") left bottom repeat-x; }
 .x-bg #x-head-wrap-02 #x-head-menu a:first-child	{ margin-left:0; }
 .x-bg #x-head-wrap-02 #x-head-menu a:last-child	{ margin-right:25px; }
@@ -240,9 +240,9 @@ filter: transparent; /* IE6-9 */
 .x-bg #x-head-mnav .x-mbox label,
 .x-bg #x-head-mnav .x-mnav																{ background-color:#FFF; }
 /* font styling */
-.x-bg #x-head-mnav .x-mbox label														{ color:#000; font:500 16px/30px Khand, Tahoma, Sans-serif; }
-.x-bg #x-head-mnav .x-mnav h4															{ color:#A4C337; font:600 16px/30px Khand, Tahoma, Sans-serif; padding:0 8px }
-.x-bg #x-head-mnav .x-mnav ul li a														{ color:#000; font:normal 15px/30px Khand, Tahoma, Sans-serif; text-decoration:none; display:block; padding:0 10px; border:1px solid #FFF; border-width:1px 0;  }
+.x-bg #x-head-mnav .x-mbox label														{ color:#000; font:500 16px/30px visby_cfbold; }
+.x-bg #x-head-mnav .x-mnav h4															{ color:#A4C337; font:600 16px/30px visby_cfbold; padding:0 8px }
+.x-bg #x-head-mnav .x-mnav ul li a														{ color:#000; font:normal 15px/30px visby_cfbold; text-decoration:none; display:block; padding:0 10px; border:1px solid #FFF; border-width:1px 0;  }
 .x-bg #x-head-mnav .x-mnav ul li a:hover											{ color:#FFF; text-decoration:none; background-color:#A4C337; }
 /* add dividers */
 .x-bg #x-head-mnav .x-mnav h4,
@@ -304,7 +304,7 @@ filter: transparent; /* IE6-9 */
 #x-main-feat #x-feat .x-fp a span					{ text-align:left; font-size:14px; line-height:16px; display:block; overflow:hidden; }
 #x-main-feat #x-feat .x-fp a .title					{ color:#FFF; height:48px; font-weight:500; margin:-10px 8px 10px; text-align:center; }
 #x-main-feat #x-feat .x-fp a .title:hover		{ color:#C0E804; }
-#x-main-feat #x-feat .x-fp a .price					{ color:#C0E804; font:600 16px/30px Khand, Tahoma, Geneva, Sans-serif; height:30px; display:block; padding:0 10px; }
+#x-main-feat #x-feat .x-fp a .price					{ color:#C0E804; font:600 16px/30px visby_cfbold; height:30px; display:block; padding:0 10px; }
 #x-main-feat #x-feat .x-fp a .thumb				{ width:168px; height:168px; display:block; display:table-cell; vertical-align:middle; text-align:center; }
 #x-main-feat #x-feat .x-fp a .thumb img		{ max-height:140px; width:auto; max-width:140px; margin:14px auto; }
 #x-main-feat #x-feat										{ display:inline-block; }
