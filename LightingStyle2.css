@@ -88,12 +88,12 @@ img{ max-width:100%;}
 .x-bg .x-bkwh														{ background:#FFF none; } /* white backgrounds */
 .x-bg .x-bkbl														{ background:#010101 none; } /* black backgrounds */
 .x-bg .x-bkdk														{ background:#222 none; } /* dark backgrounds */
-.x-bg .x-grdn														{ background:#191919 none; } /* neutral gradient */
-.x-bg .x-grda														{ background:#c1d860 none; } /* bright accent gradient */
-.x-bg .x-bkac														{ background:#c1d860 none; } /* accent backgrounds */
+.x-bg .x-grdn														{ background:#000b40 none; } /* neutral gradient */
+.x-bg .x-grda														{ background:#17b2e7 none; } /* bright accent gradient */
+.x-bg .x-bkac														{ background:#17b2e7 none; } /* accent backgrounds */
 
 /* --- global borders --- */
-.x-bg .x-brda														{ border:1px solid #c1d860; } /* accent color bgs border */
+.x-bg .x-brda														{ border:1px solid #17b2e7; } /* accent color bgs border */
 .x-bg .x-brdd														{ border:1px solid #222; } /* dark border */
 
 /* --- global box dimensions --- */
@@ -109,7 +109,7 @@ img{ max-width:100%;}
 .x-bg .x-bklt														{ overflow:hidden; }
 .x-bg #LeftPanel .x-bklt									{ background:#FFF none; } /* left column text boxes backgrounds */
 .x-bg #LeftPanel .x-brdm									{ border:1px solid #C1D860; } /* left column text boxes border */
-.x-bg #x-main .x-bklt										{ background:#EDEFED none; } /* main column text boxes backgrounds */
+.x-bg #x-main .x-bklt										{ background:#ffffff none; } /* main column text boxes backgrounds */
 .x-bg #x-main .x-brdm										{ border:1px solid #C1D860;text-align: center; } /* main column text boxes border */
 .x-bg #x-main2 .x-brdm										{ border:1px solid #C1D860;text-align: left; } /* main column text boxes border */
 .x-bg .x-sbox, #x-deal										{ border-width:0 !important; } /* side column content box */
