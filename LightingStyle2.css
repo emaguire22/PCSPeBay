@@ -187,8 +187,8 @@ filter: transparent; /* IE6-9 */
 .x-bg #x-head-01												{ padding:10px 0; }
 
 /* --- header logo --- */
-.x-bg #x-head-lbox											{ width:auto; max-width:300px; float:left; max-height: 150px }
-.x-bg #x-head-logo											{ width:auto; max-width:300px; display:block; margin:15px auto; max-height: 150px} /* position logo homepage link */
+.x-bg #x-head-lbox											{ width:auto; max-width:300px; float:left; }
+.x-bg #x-head-logo											{ width:auto; max-width:200px; display:block; margin:15px auto; } /* position logo homepage link */
 @media screen and (max-width:1300px)			{ .x-bg #x-head-lbox { margin-left:10px; } }
 @media screen and (max-width:1000px)			{ .x-bg #x-head-lbox { float:none; margin:0 auto; } .x-bg #x-head-logo { margin:20px auto; } }
 @media screen and (max-width:350px)			{ .x-bg #x-head-lbox, .x-bg #x-head-logo { max-width:280px; } }
