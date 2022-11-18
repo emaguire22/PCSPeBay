@@ -241,9 +241,9 @@ filter: transparent; /* IE6-9 */
 .x-bg #x-head-mnav .x-mnav																{ background-color:#FFF; }
 /* font styling */
 .x-bg #x-head-mnav .x-mbox label														{ color:#000; font: assistant; }
-.x-bg #x-head-mnav .x-mnav h4															{ color:#c1d860; font: assistant; padding:0 8px }
+.x-bg #x-head-mnav .x-mnav h4															{ color:#17b2e7; font: assistant; padding:0 8px }
 .x-bg #x-head-mnav .x-mnav ul li a														{ color:#000; font: assistant; text-decoration:none; display:block; padding:0 10px; border:1px solid #FFF; border-width:1px 0;  }
-.x-bg #x-head-mnav .x-mnav ul li a:hover											{ color:#FFF; text-decoration:none; background-color:#c1d860; }
+.x-bg #x-head-mnav .x-mnav ul li a:hover											{ color:#FFF; text-decoration:none; background-color:#17b2e7; }
 /* add dividers */
 .x-bg #x-head-mnav .x-mnav h4,
 .x-bg #x-head-mnav .x-mnav ul li														{ border-top:1px solid #191919; }
@@ -258,7 +258,7 @@ filter: transparent; /* IE6-9 */
 .x-bg #LeftPanel .lev1 li a,
 .x-bg #x-side-cats ul li a									{ color:#000; } /* left cats menu links */
 .x-bg #LeftPanel .lev1 li a:hover,
-.x-bg #x-side-cats ul li a:hover						{ color:#000; background:#c1d860 none; } /* left cats menu links hover */
+.x-bg #x-side-cats ul li a:hover						{ color:#000; background:#17b2e7 none; } /* left cats menu links hover */
 #LeftPanel #x-side-cats .x-tins						{ padding:0; }
 #LeftPanel .lev1 li a,
 #LeftPanel .lev1 span				        				{ font-size:16px; line-height:19px; font-weight:normal; padding:6px 10px; }
@@ -316,20 +316,20 @@ filter: transparent; /* IE6-9 */
 -------------------------------------------------- */
 /* --- template titles --- */
 #CentralArea h1, #x-main h1							{ color:#232323; text-align:center; font-size:24px; line-height:27px; font-weight:500; margin:0; padding:0 0 15px; } /* listing main title */
-#CentralArea h5, #x-main h5		            		{ color:#c1d860; text-align:left; font-size:13px; line-height:18px; font-weight:bold; margin:0; padding:5px 0 5px; } /* listing section subtitles */
+#CentralArea h5, #x-main h5		            		{ color:#17b2e7; text-align:left; font-size:13px; line-height:18px; font-weight:bold; margin:0; padding:5px 0 5px; } /* listing section subtitles */
 
 /* --- template image gallery -- thumbs side --- */
 #x-temp-gall														{ width:100%; max-width:700px; margin:0 auto; }
 #x-temp-gall img												{ margin:0 auto; display:block; border:0 none; width:auto; height:auto; }
 #x-temp-gall .x-cntr											{ display:table-cell; vertical-align:middle; text-align:center; }
-#x-temp-gall #x-gall-main								{ border:1px solid #c1d860; background:#FFF none; margin-bottom:8px; float:left; } /* set spacing and border of main img holder */
+#x-temp-gall #x-gall-main								{ border:1px solid #17b2e7; background:#FFF none; margin-bottom:8px; float:left; } /* set spacing and border of main img holder */
 #x-temp-gall #x-gall-main								{ width:auto; max-width:500px; height:auto; } /* set main img holder size */
 #x-temp-gall #x-gall-main .x-cntr					{ width:100%; height:auto; } /* set main img holder size */
 #x-template #x-main #x-gall-main img			{ width:100%; } /* set main img size */
 #x-temp-gall #x-gall-thmb								{ width:170px; float:left; } /* thumbs gallery container */
 #x-temp-gall #x-gall-thmb h5							{ color:#000; font-size:15px; font-weight:normal; text-align:center; margin:0; padding:0 0 5px; width:100%; clear:both; } /* thumbs text title */
 #x-temp-gall #x-gall-thmb h5 span					{ display:inline-block; width:18px; height:18px; background:transparent url("https://sunandfuninoc.com/sites/jx/wissem/PcServerAndParts/images/x-head-mbtm.png") left center no-repeat; } /* thumbs title icon */
-#x-temp-gall #x-gall-thmb .x-hold					{ border:1px solid #c1d860; background:#FFF none; margin:0 0 8px 0px; display:block; float:left; } /* set spacing and border of thumb holders */
+#x-temp-gall #x-gall-thmb .x-hold					{ border:1px solid #17b2e7; background:#FFF none; margin:0 0 8px 0px; display:block; float:left; } /* set spacing and border of thumb holders */
 #x-temp-gall #x-gall-thmb .x-hold:hover		{ border:1px solid #000; }
 #x-temp-gall #x-gall-thmb .x-hold,
 #x-temp-gall #x-gall-thmb .x-cntr					{ width:70px; height:70px; } /* set thumb holders size */
@@ -383,7 +383,7 @@ text-transform: uppercase;text-align: left;
     padding: 0 0px 0 15px;
 }
 .specifics table td{ font-size:14px; font-weight:500; line-height:18px;color:#000000;}
-.specifics table td a{ color:#c1d860 !important;}
+.specifics table td a{ color:#17b2e7 !important;}
 
 .specifics table td:last-child {
     width:51%;
