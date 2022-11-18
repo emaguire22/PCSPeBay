@@ -69,7 +69,7 @@ img{ max-width:100%;}
 .x-bg, .x-bg p, .x-bg a, .x-bg li, .x-bg table,
 .x-bg form select												{ -size:15px; color:#000; word-wrap:break-word; }
 .x-bg a:link, .x-bg a:visited, .x-bg a:active	{ color:#464646; }
-.x-bg a:hover							            			{ color:#C1D860; }
+.x-bg a:hover							            			{ color:#17b2e7; }
 .x-bg .x-sbox, .x-bg .x-sbox p,
 .x-bg .x-sbox a, .x-bg .x-sbox li,
 .x-bg .x-tbox, .x-bg .x-tbox p,
@@ -108,10 +108,10 @@ img{ max-width:100%;}
 /* --- text boxes --- */
 .x-bg .x-bklt														{ overflow:hidden; }
 .x-bg #LeftPanel .x-bklt									{ background:#FFF none; } /* left column text boxes backgrounds */
-.x-bg #LeftPanel .x-brdm									{ border:1px solid #C1D860; } /* left column text boxes border */
+.x-bg #LeftPanel .x-brdm									{ border:1px solid #17b2e7; } /* left column text boxes border */
 .x-bg #x-main .x-bklt										{ background:#ffffff none; } /* main column text boxes backgrounds */
-.x-bg #x-main .x-brdm										{ border:1px solid #C1D860;text-align: center; } /* main column text boxes border */
-.x-bg #x-main2 .x-brdm										{ border:1px solid #C1D860;text-align: left; } /* main column text boxes border */
+.x-bg #x-main .x-brdm										{ border:1px solid #17b2e7;text-align: center; } /* main column text boxes border */
+.x-bg #x-main2 .x-brdm										{ border:1px solid #17b2e7;text-align: left; } /* main column text boxes border */
 .x-bg .x-sbox, #x-deal										{ border-width:0 !important; } /* side column content box */
 .x-bg .x-tbox														{ border-width:0 !important; } /* main column content box */
 .x-bg .x-pbox														{ border-width:3px !important; } /* main column content box plain no title bar */
@@ -165,9 +165,9 @@ background-image: url("https://sunandfuninoc.com/sites/jx/wissem/PcServerAndPart
     background-repeat: no-repeat;
 }
 /* --- buttons --- */
-.x-bg .x-ffbn, .x-bg a.x-ffbn								{ background:#C1D860 none; } /* buttons */
+.x-bg .x-ffbn, .x-bg a.x-ffbn								{ background:#17b2e7 none; } /* buttons */
 .x-bg .x-ffbn:hover, .x-bg a.x-ffbn:hover		{ background:#222 none; } /* buttons hover */
-.x-bg .x-brdb														{ border:1px solid #C1D860; } /* buttons border */
+.x-bg .x-brdb														{ border:1px solid #17b2e7; } /* buttons border */
 .x-bg .x-brdb:hover											{ border:1px solid #222; } /* buttons border hover */
 .x-bg .x-ffbn, .x-bg a.x-ffbn								{ color:#FFF; font-size:12px; font-weight:bold; height:30px; line-height:30px; padding:0 10px; display:block;  -webkit-border-radius:0; border-radius:0; -webkit-appearance:none; } /* buttons font settings */
 .x-bg .x-ffbn:hover, .x-bg a.x-ffbn:hover		{ color:#FFF; } /* buttons font hover */
@@ -219,7 +219,7 @@ filter: transparent; /* IE6-9 */
 @media screen and (max-width:1300px)			{ .x-bg #x-head-wrap-02 #x-head-menu { margin-right:10px; } }
 @media screen and (max-width:1000px)			{ .x-bg #x-head-wrap-02 #x-head-menu { display:none; } }
 .x-bg #x-head-wrap-02 #x-head-menu a						{ color:#FFF; font: assistant; text-transform:uppercase; display:inline-block; margin:0 15px; padding:0; }
-.x-bg #x-head-wrap-02 #x-head-menu a:hover			{ color:#C1D860;  text-decoration:none; background:transparent url("https://sunandfuninoc.com/sites/jx/wissem/PcServerAndParts/images/x-head-mbtm.png") left bottom repeat-x; }
+.x-bg #x-head-wrap-02 #x-head-menu a:hover			{ color:#17b2e7;  text-decoration:none; background:transparent url("https://sunandfuninoc.com/sites/jx/wissem/PcServerAndParts/images/x-head-mbtm.png") left bottom repeat-x; }
 .x-bg #x-head-wrap-02 #x-head-menu a:first-child	{ margin-left:0; }
 .x-bg #x-head-wrap-02 #x-head-menu a:last-child	{ margin-right:25px; }
 
