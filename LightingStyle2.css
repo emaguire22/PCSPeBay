@@ -65,9 +65,9 @@ img{ max-width:100%;}
 #x-template #LeftPanel .x-temp              		{ display:block !important; } /* promo boxes on template only */
 
 /* --- global fonts --- */
-.x-bg *                                     							{ font-family: roboto, montserrat, visby_cfbold, visby_cfdemi_bold, visby_cfextra_bold, visby_cfheavy, visby_cflight, visby_cfmedium, visby_cfregular, visby_cfthin, visby_cfregular_oblique, visby_cfthin_oblique; text-decoration:none; }
+.x-bg *                                     							{ font-family: assistant; text-decoration:none; }
 .x-bg, .x-bg p, .x-bg a, .x-bg li, .x-bg table,
-.x-bg form select												{ font-size:15px; color:#000; word-wrap:break-word; }
+.x-bg form select												{ -size:15px; color:#000; word-wrap:break-word; }
 .x-bg a:link, .x-bg a:visited, .x-bg a:active	{ color:#464646; }
 .x-bg a:hover							            			{ color:#C1D860; }
 .x-bg .x-sbox, .x-bg .x-sbox p,
@@ -121,7 +121,7 @@ img{ max-width:100%;}
 /* --- title bars --- */
 #LeftPanel .x-ttba											{ width:auto; text-align:left; margin:0; padding:8px 10px 6px; } /* side title bars */
 #x-main .x-ttba													{ width:auto; text-align:left; margin:0; padding:8px 10px 6px; } /* main title bars */
-.x-bg .x-ffac, .x-bg .x-ffac p, .x-bg .x-ffac a	{ font-family: roboto; text-decoration:none; } /* accent font family */
+.x-bg .x-ffac, .x-bg .x-ffac p, .x-bg .x-ffac a	{ font-family: assistant; text-decoration:none; } /* accent font family */
 .x-bg .x-fftb, .x-bg .x-fftb p, .x-bg .x-fftb a	{ color:#FFF; font-size:22px; line-height:25px; font-weight:500; text-transform:uppercase; letter-spacing:0.05em; } /* title bar font settings */
 .x-bg #x-main .x-fftb										{ /* text-align:center; */ }
 .x-bg .x-ttba .x-tins											{ padding:0 !important; }
@@ -218,7 +218,7 @@ filter: transparent; /* IE6-9 */
 .x-bg #x-head-wrap-02 #x-head-menu		{ float:right; margin-top:28px; clear:right; background:transparent left bottom repeat-x; }
 @media screen and (max-width:1300px)			{ .x-bg #x-head-wrap-02 #x-head-menu { margin-right:10px; } }
 @media screen and (max-width:1000px)			{ .x-bg #x-head-wrap-02 #x-head-menu { display:none; } }
-.x-bg #x-head-wrap-02 #x-head-menu a						{ color:#FFF; font: roboto; text-transform:uppercase; display:inline-block; margin:0 15px; padding:0; }
+.x-bg #x-head-wrap-02 #x-head-menu a						{ color:#FFF; font: assistant; text-transform:uppercase; display:inline-block; margin:0 15px; padding:0; }
 .x-bg #x-head-wrap-02 #x-head-menu a:hover			{ color:#C1D860;  text-decoration:none; background:transparent url("https://sunandfuninoc.com/sites/jx/wissem/PcServerAndParts/images/x-head-mbtm.png") left bottom repeat-x; }
 .x-bg #x-head-wrap-02 #x-head-menu a:first-child	{ margin-left:0; }
 .x-bg #x-head-wrap-02 #x-head-menu a:last-child	{ margin-right:25px; }
@@ -240,9 +240,9 @@ filter: transparent; /* IE6-9 */
 .x-bg #x-head-mnav .x-mbox label,
 .x-bg #x-head-mnav .x-mnav																{ background-color:#FFF; }
 /* font styling */
-.x-bg #x-head-mnav .x-mbox label														{ color:#000; font: roboto; }
-.x-bg #x-head-mnav .x-mnav h4															{ color:#c1d860; font: roboto; padding:0 8px }
-.x-bg #x-head-mnav .x-mnav ul li a														{ color:#000; font: roboto; text-decoration:none; display:block; padding:0 10px; border:1px solid #FFF; border-width:1px 0;  }
+.x-bg #x-head-mnav .x-mbox label														{ color:#000; font: assistant; }
+.x-bg #x-head-mnav .x-mnav h4															{ color:#c1d860; font: assistant; padding:0 8px }
+.x-bg #x-head-mnav .x-mnav ul li a														{ color:#000; font: assistant; text-decoration:none; display:block; padding:0 10px; border:1px solid #FFF; border-width:1px 0;  }
 .x-bg #x-head-mnav .x-mnav ul li a:hover											{ color:#FFF; text-decoration:none; background-color:#c1d860; }
 /* add dividers */
 .x-bg #x-head-mnav .x-mnav h4,
@@ -304,7 +304,7 @@ filter: transparent; /* IE6-9 */
 #x-main-feat #x-feat .x-fp a span					{ text-align:left; font-size:14px; line-height:16px; display:block; overflow:hidden; }
 #x-main-feat #x-feat .x-fp a .title					{ color:#FFF; height:48px; font-weight:500; margin:-10px 8px 10px; text-align:center; }
 #x-main-feat #x-feat .x-fp a .title:hover		{ color:#C0E804; }
-#x-main-feat #x-feat .x-fp a .price					{ color:#C0E804; font: roboto; height:30px; display:block; padding:0 10px; }
+#x-main-feat #x-feat .x-fp a .price					{ color:#C0E804; font: assistant; height:30px; display:block; padding:0 10px; }
 #x-main-feat #x-feat .x-fp a .thumb				{ width:168px; height:168px; display:block; display:table-cell; vertical-align:middle; text-align:center; }
 #x-main-feat #x-feat .x-fp a .thumb img		{ max-height:140px; width:auto; max-width:140px; margin:14px auto; }
 #x-main-feat #x-feat										{ display:inline-block; }
@@ -633,7 +633,7 @@ background-position:98% center; background-repeat:no-repeat; }
 @media screen and (max-width:700px) 			{ #x-foot-subm { height:auto; display:none; } #x-foot-subm, #x-foot-subm * { line-height:1.2 } #x-foot-subm a { display:block; padding-bottom:8px; padding-left:0; padding-right:0; } }
 
 /* --- footer copyright --- */
-#x-foot-copy, #x-foot-copy *						{ color:#000; font-size:11px; line-height:14px; font-family: roboto, montserrat, visby_cfbold, visby_cfdemi_bold, visby_cfextra_bold, visby_cfheavy, visby_cflight, visby_cfmedium, visby_cfregular, visby_cfthin, visby_cfregular_oblique, visby_cfthin_oblique; }
+#x-foot-copy, #x-foot-copy *						{ color:#000; font-size:11px; line-height:14px; font-family: assistant }
 #x-foot-copy													{ height:12px; overflow:hidden; }
 #x-foot-copy a													{ color:#000; }
 #x-foot-copy a:hover							    		{ color:#000; text-decoration:underline; }
