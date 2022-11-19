@@ -116,7 +116,7 @@ img{ max-width:100%;}
 .x-bg .x-tbox														{ border-width:0 !important; } /* main column content box */
 .x-bg .x-pbox														{ border-width:3px !important; } /* main column content box plain no title bar */
 .x-bg #x-main .x-bklt .x-line,
-.x-bg #x-main #x-main-feat #x-feat				{ margin:3px; border:1px solid #191919; background:#FFFFFF; url(images/x-main-tbox.png) 0 0 repeat; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.x-bg #x-main #x-main-feat #x-feat				{ margin:3px; border:none; background:#FFFFFF; url(images/x-main-tbox.png) 0 0 repeat; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 
 /* --- title bars --- */
 #LeftPanel .x-ttba											{ width:auto; text-align:left; margin:0; padding:8px 10px 6px; } /* side title bars */
