@@ -131,13 +131,13 @@ background: -webkit-linear-gradient(top,  #2d426c 5%, #000b40 89%); /* Chrome10-
 background: linear-gradient(to bottom,  #2d426c 5%, #000b40 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#464646',GradientType=0 ); /* IE6-9 */ } /* title bars left column */
 .x-bg #x-main .x-bktt										{ background: #191919; /* Old browsers */
-background: -moz-linear-gradient(top,  #2d426c 5%, #36555B 89%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #2d426c 5%, #36555B 89%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #2d426c 5%, #36555B 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top,  #2d426c 5%, #000b40 89%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #2d426c 5%, #000b40 89%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #2d426c 5%, #000b40 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#464646',GradientType=0 );display: inline-block;
 width: 100%; /* IE6-9 */ } /* title bars main column */
 /*.x-bg #LeftPanel .x-brdt									{ border:0px solid #FFF; border-width:3px 3px 0; }*/ /* title bars border left column */
-.x-bg #x-main .x-brdt										{ border:1px solid #F6F6F6; border-width:3px 3px 0; } /* title bars border main column */
+.x-bg #x-main .x-brdt										{ border:none; border-width:3px 3px 0; } /* title bars border main column */
 .x-bg #x-main [type="checkbox"]:checked ~ label.x-bktt {
     background:
 #191919;
@@ -554,7 +554,7 @@ div#x-gall-main > div:target							{ z-index:2; }
 }
 
 /* --- template terms accordion --- */
-.x-bg #x-main #x-main-tabs							{ width:100%; height:auto; position:relative; clear:both; margin:0 0 13px; padding:3px 0; background-color:#F6F6F6; overflow:hidden; }
+.x-bg #x-main #x-main-tabs							{ width:100%; height:auto; position:relative; clear:both; margin:0 0 13px; padding:0px 0; background-color:#F6F6F6; overflow:hidden; }
 .x-bg #x-main #x-main-tabs .x-tbox				{ margin:0; max-height:300px; overflow:auto; }
 .x-ttab																{ float:none; }
 .x-ttab label														{ width:100%; position:relative; left:0; display:block; cursor:pointer; } /* tab styling */
