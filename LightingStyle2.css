@@ -110,7 +110,7 @@ img{ max-width:100%;}
 .x-bg #LeftPanel .x-bklt									{ background:#FFF none; } /* left column text boxes backgrounds */
 .x-bg #LeftPanel .x-brdm									{ border:1px solid #17b2e7; } /* left column text boxes border */
 .x-bg #x-main .x-bklt										{ background:#ffffff none; } /* main column text boxes backgrounds */
-.x-bg #x-main .x-brdm										{ border:1px solid #17b2e7;text-align: center; } /* main column text boxes border */
+.x-bg #x-main .x-brdm										{ border:none;text-align: center; } /* main column text boxes border */
 .x-bg #x-main2 .x-brdm										{ border:1px solid #17b2e7;text-align: left; } /* main column text boxes border */
 .x-bg .x-sbox, #x-deal										{ border-width:0 !important; } /* side column content box */
 .x-bg .x-tbox														{ border-width:0 !important; } /* main column content box */
