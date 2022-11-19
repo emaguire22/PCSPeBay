@@ -554,7 +554,7 @@ div#x-gall-main > div:target							{ z-index:2; }
 }
 
 /* --- template terms accordion --- */
-.x-bg #x-main #x-main-tabs							{ width:100%; height:auto; position:relative; clear:both; margin:0 0 13px; padding:3px 0; background-color:#F6F6F6; overflow:hidden; }
+.x-bg #x-main #x-main-tabs							{ width:100%; height:auto; position:relative; clear:both; margin:0 0 13px; padding:0px 0; background-color:#F6F6F6; overflow:hidden; }
 .x-bg #x-main #x-main-tabs .x-tbox				{ margin:0; max-height:300px; overflow:auto; }
 .x-ttab																{ float:none; }
 .x-ttab label														{ width:100%; position:relative; left:0; display:block; cursor:pointer; } /* tab styling */
