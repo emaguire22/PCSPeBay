@@ -616,7 +616,7 @@ background-position:98% center; background-repeat:no-repeat; }
 /* Footer
 -------------------------------------------------- */
 /* --- footer general settings --- */
-#x-foot-wrap													{ background:#464646 none;} /* footer background and divider line */
+#x-foot-wrap													{ background:none;} /* footer background and divider line */
 .x-foot-tins														{ width:100%; max-width:1250px; height:auto; margin:0 auto; overflow:hidden; text-align:center; }
 #x-foot-main														{  }
 #x-foot-main .x-foot-tins									{ padding:20px 0; }
