@@ -360,7 +360,7 @@ filter: transparent; /* IE6-9 */
 .x-bg #x-head-srch-bttn									{ border-width:0; width:30px; background:transparent url("https://sunandfuninoc.com/sites/jx/wissem/PcServerAndParts/images/x-head-mbtm.png") center center no-repeat; ) } /* header search button divider line */
 
 /* --- header menu bar mid right --- */
-.x-bg #x-head-wrap-02 #x-head-menu		{ float:right; margin-top:28px; clear:right; background:transparent left bottom repeat-x; font-family: 'visby-cfregular'; text-descoration: none; }
+.x-bg #x-head-wrap-02 #x-head-menu		{ float:right; margin-top:28px; clear:right; background:transparent left bottom repeat-x; font-family: 'visby-cfregular'; text-descoration: none; text-transform: none; }
 @media screen and (max-width:1300px)			{ .x-bg #x-head-wrap-02 #x-head-menu { margin-right:10px; } }
 @media screen and (max-width:1000px)			{ .x-bg #x-head-wrap-02 #x-head-menu { display:none; } }
 .x-bg #x-head-wrap-02 #x-head-menu a						{ color:#FFF; font: roboto; text-transform:uppercase; display:inline-block; margin:0 15px; padding:0; }
