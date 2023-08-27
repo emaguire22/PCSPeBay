@@ -166,7 +166,7 @@ img{ max-width:100%;}
 .x-bg, .x-bg-02, .x-content								{ margin:0 auto; text-align:center; vertical-align:top; overflow:hidden; }
 @media screen and (max-width:800px) 			{ .x-bg .x-nota { display:none !important; } } /* general setting to hide items on tablet view */
 @media screen and (max-width:500px) 			{ .x-bg .x-nomo { display:none !important; } } /* general setting to hide items on mobile view */
-*																			{ max-width:100%; }
+*																			{ max-width:100%; text-align:center }
 .stBadge																{ min-width: 320px; max-width:100%; }
 
 /* --- BEG DIMENSIONS 2 COL EXTENDED WIDTH 1250 NO SIDE MARGINS --- */
