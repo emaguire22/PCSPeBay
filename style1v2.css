@@ -12,7 +12,7 @@ body																{ margin:0 2px !important; padding:0 !important; }
 
 /* --- content area bg and width --- */
 .x-content, #x-head, #x-foot, .x-vaca    			{ position:relative; margin:0 auto; }
-#x-head-wrap, #x-foot-wrap				    		{ width:100%; position:relative; margin:0 auto; }
+#x-head-wrap, #x-foot-wrap				    		{ width:100%; position:relative; margin:0 auto; padding: 15px; }
 
 /* --- left column --- */
 #LeftPanel, #LeftPanel .x-tbar,
