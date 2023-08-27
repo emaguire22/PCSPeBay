@@ -277,8 +277,8 @@ background: linear-gradient(to bottom,  #1E3531 5%, #315954 89%); /* W3C, IE10+,
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#464646',GradientType=0 ); /* IE6-9 */ } /* title bars left column */
 .x-bg #x-main .x-bktt										{ background: #191919; /* Old browsers */
 background: -moz-linear-gradient(top,  #1E3531 5%, #315954 89%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #1E3531 5%, #36555B 89%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #1E3531 5%, #36555B 89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -webkit-linear-gradient(top,  #1E3531 5%, #315954  89%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #1E3531 5%, #315954  89%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#191919', endColorstr='#464646',GradientType=0 );display: inline-block;
 width: 100%; /* IE6-9 */ } /* title bars main column */
 /*.x-bg #LeftPanel .x-brdt									{ border:0px solid #FFF; border-width:3px 3px 0; }*/ /* title bars border left column */
@@ -385,9 +385,9 @@ filter: transparent; /* IE6-9 */
 .x-bg #x-head-mnav .x-mbox label,
 .x-bg #x-head-mnav .x-mnav																{ background-color:#FFF; }
 /* font styling */
-.x-bg #x-head-mnav .x-mbox label														{ color:#000; font: roboto; }
-.x-bg #x-head-mnav .x-mnav h4															{ color:#c1d860; font: roboto; padding:0 8px }
-.x-bg #x-head-mnav .x-mnav ul li a														{ color:#000; font: roboto; text-decoration:none; display:block; padding:0 10px; border:1px solid #FFF; border-width:1px 0;  }
+.x-bg #x-head-mnav .x-mbox label														{ color:#000; }
+.x-bg #x-head-mnav .x-mnav h4															{ color:#c1d860; padding:0 8px }
+.x-bg #x-head-mnav .x-mnav ul li a														{ color:#000; text-decoration:none; display:block; padding:0 10px; border:1px solid #FFF; border-width:1px 0;  }
 .x-bg #x-head-mnav .x-mnav ul li a:hover											{ color:#FFF; text-decoration:none; background-color:#c1d860; }
 /* add dividers */
 .x-bg #x-head-mnav .x-mnav h4,
