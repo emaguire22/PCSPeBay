@@ -559,7 +559,7 @@ text-transform: none;text-align: left;
 
 }
 tbody{
-    display: inline-block;
+    display: table-row-group;
 }
 @media screen and (max-width:1249px) {#x-temp-gall #x-gall-main {width: 77% !important;}#x-temp-gall {
 
