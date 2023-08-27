@@ -158,8 +158,8 @@
 }
 img{ max-width:100%;}
 .x-bg																	{
-  background:url("https://i.ibb.co/LzQh2vJ/City-background-2000px.png") no-repeat fixed;
-  background-size: cover;
+  background:url("https://i.ibb.co/rHDcZcK/City-background-2000px-flipped.png") no-repeat fixed;
+  background-size: contain;
   padding:0;
 }
 .x-bg-02																{ width:90%; max-width:960px; padding:0; overflow:hidden; display:block; } /* content area bg */
