@@ -724,13 +724,13 @@ div#x-gall-main > div:target							{ z-index:2; }
     display: none;
     float: right;
 }
-#x-ttab-01:checked ~ .x-ttrm, #x-ttab-02:checked ~ .x-ttrm, #x-ttab-03:checked ~ .x-ttrm, #x-ttab-04:checked ~ .x-ttrm, #x-ttab-05:checked ~ .x-ttrm{
+#x-ttab-01:checked ~ .x-ttrm, #x-ttab-02:checked ~ .x-ttrm, #x-ttab-03:checked ~ .x-ttrm, #x-ttab-04:checked ~ .x-ttrm, #x-ttab-05:checked ~ .x-ttrm, #x-ttab-06:checked ~ .x-ttrm{
     display: inline-block;
 }
-#x-ttab-01:checked ~ .x-ttrm1, #x-ttab-02:checked ~ .x-ttrm2, #x-ttab-03:checked ~ .x-ttrm3, #x-ttab-04:checked ~ .x-ttrm4, #x-ttab-05:checked ~ .x-ttrm5{
+#x-ttab-01:checked ~ .x-ttrm1, #x-ttab-02:checked ~ .x-ttrm2, #x-ttab-03:checked ~ .x-ttrm3, #x-ttab-04:checked ~ .x-ttrm4, #x-ttab-05:checked ~ .x-ttrm5, #x-ttab-06:checked ~ .x-ttrm{
     display:block;
 }
-#x-ttab-01:checked ~ .x-ttrm1, #x-ttab-02:checked ~ .x-ttrm2, #x-ttab-03:checked ~ .x-ttrm3, #x-ttab-04:checked ~ .x-ttrm4, #x-ttab-05:checked ~ .x-ttrm5{
+#x-ttab-01:checked ~ .x-ttrm1, #x-ttab-02:checked ~ .x-ttrm2, #x-ttab-03:checked ~ .x-ttrm3, #x-ttab-04:checked ~ .x-ttrm4, #x-ttab-05:checked ~ .x-ttrm5, #x-ttab-06:checked ~ .x-ttrm{
     display:block;
 }
 #x-main-tabs input {
@@ -810,4 +810,24 @@ div#shopby {
 	div#shopby a {
 		width: 100%;
 	}
+}
+
+/*-------Evan Table-----Procurement Services--------*/
+
+.tabEV h4 {
+    font-family: 'Visby_cfbold';    
+    font-size: 18px;
+    color: #444;
+
+}
+
+.tabEV {
+    align-content: center;
+    margin: none !important;
+    display: block !important;
+}
+
+.benfit-img {
+    width: 50px;
+    height: auto;
 }
