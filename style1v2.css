@@ -72,7 +72,8 @@ body																{ margin:0 2px !important; padding:0 !important; }
 #x-main-tabs img, #x-gall-thmb img      			{ cursor:pointer; }
 #LeftPanel ul li a, #LeftPanel ul li span,
 #x-main-fcat a, #x-main-fcat a img,
-#x-main-tabs img, #x-main-feat .x-fp *       	{ display:block; }
+#x-main-feat .x-fp *       	{ display:block; }
+#x-main-tabs img
 #x-main-ttrm-01											{ display:block; visibility:visible; }
 #x-main-ttrm-02, #x-main-ttrm-03,
 #x-main-ttrm-04, #x-main-ttrm-05,
