@@ -364,7 +364,7 @@ filter: transparent; /* IE6-9 */
 @media screen and (max-width:1300px)			{ .x-bg #x-head-wrap-02 #x-head-menu { margin-right:10px; } }
 @media screen and (max-width:1000px)			{ .x-bg #x-head-wrap-02 #x-head-menu { display:none; } }
 .x-bg #x-head-wrap-02 #x-head-menu a						{ color:#FFF; text-transform:none; display:inline-block; margin:0 15px; padding:0; font-family:'visby_cfbold';  }
-.x-bg #x-head-wrap-02 #x-head-menu a:hover			{ color:#C1D860;  text-decoration:none; background:transparent url("https://sunandfuninoc.com/sites/jx/wissem/PcServerAndParts/images/x-head-mbtm.png") left bottom repeat-x; }
+.x-bg #x-head-wrap-02 #x-head-menu a:hover			{ color:red;  text-decoration:none; background:transparent url("https://sunandfuninoc.com/sites/jx/wissem/PcServerAndParts/images/x-head-mbtm.png") left bottom repeat-x; }
 .x-bg #x-head-wrap-02 #x-head-menu a:first-child	{ margin-left:0; }
 .x-bg #x-head-wrap-02 #x-head-menu a:last-child	{ margin-right:25px; }
 
