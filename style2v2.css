@@ -430,7 +430,7 @@ filter: transparent; /* IE6-9 */
 /* --- main featured categories images --- */
 #x-main-fcat														{ width:100%; overflow:hidden; text-align:center; /* padding-top:10px; */ }
 #x-main-fcat a													{ display:inline; }
-#x-main-fcat a img											{ width:240px; max-width:240px; height:auto; margin:0 0 13px 12px; display:block; float:left; }
+#x-main-fcat a img											{ width:240px; max-width:240px; height:auto; margin:0 0 13px 12px; display:inline-block; float:left; }
 #x-main-fcat a.x-first img								{ margin-left:0; margin-right:1px; }
 /* responsive adjs for 4 across */
 @media screen and (max-width:1280px)			{ #x-main-fcat a img, #x-main-fcat a.x-first img { width:23%; height:auto; float:none; margin:0 5px 13px; } }
@@ -450,7 +450,7 @@ filter: transparent; /* IE6-9 */
 #x-main-feat #x-feat .x-fp a .title					{ color:#FFF; height:48px; font-weight:500; margin:-10px 8px 10px; text-align:center; }
 #x-main-feat #x-feat .x-fp a .title:hover		{ color:#C0E804; }
 #x-main-feat #x-feat .x-fp a .price					{ color:#C0E804; font: roboto; height:30px; display:block; padding:0 10px; }
-#x-main-feat #x-feat .x-fp a .thumb				{ width:168px; height:168px; display:block; display:table-cell; text-align:center; }
+#x-main-feat #x-feat .x-fp a .thumb				{ width:168px; height:168px; display:block; display:table-cell; vertical-align:middle; text-align:center; }
 #x-main-feat #x-feat .x-fp a .thumb img		{ max-height:140px; width:auto; max-width:140px; margin:14px auto; }
 #x-main-feat #x-feat										{ display:inline-block; }
 #x-main-feat #x-feat .x-fp								{ margin:15px 13px 0; }
@@ -565,7 +565,7 @@ tbody{
 @media screen and (max-width:1249px) {#x-temp-gall #x-gall-main {width: 77% !important;}#x-temp-gall {
 
     float: left;
-    display: block;
+    display: inline-block;
     width: 60%;
 
 }}
@@ -573,7 +573,7 @@ tbody{
 #x-temp-gall {
 
     float: left;
-    display: block;
+    display: inline-block;
     width: 57%;
 
 }
