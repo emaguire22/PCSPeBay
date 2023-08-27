@@ -482,7 +482,7 @@ filter: transparent; /* IE6-9 */
 #x-template #x-main #x-gall-thmb img			/* set thumbs size */
 #x-temp-gall .x-hide 										{ display:none !important; } /* hide unused gallery image slots */
 /* --- beg adjust for extended width --- */
-#x-temp-gall														{ float:left; display:block; width:66%; }
+#x-temp-gall														{ float:left; display:inline-block; width:66%; }
 #x-temp-gall #x-gall-main								{ max-width:600px; }
 #x-temp-gall #x-gall-thmb								{max-width: 105px;
 
@@ -492,7 +492,7 @@ width: 19%; }
 #x-temp-gall #x-gall-thmb .x-hold,
 #x-temp-gall #x-gall-thmb .x-cntr					{ width:105px; height:105px; display:inline-block;} /* set thumb holders size */
 
-.top-right{ display:block; float:right; max-width:310px; width:100%;}
+.top-right{ display:inline-block; float:right; max-width:310px; width:100%;}
 .top-right h3 {
     font-family: 'visby_cfbold';
     background: #191919;
