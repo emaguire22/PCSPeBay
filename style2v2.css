@@ -254,7 +254,7 @@ img{ max-width:100%;}
 #x-template #LeftPanel .x-temp              		{ display:block !important; } /* promo boxes on template only */
 
 /* --- global fonts --- */
-.x-bg *                                     							{ font-family: 'visby_cfregular','visby_cfbold'; }
+.x-bg *                                     							{ font-family: 'visby_cfregular','visby_cfbold'; font-size:inherit; }
 .x-bg, .x-bg p, .x-bg a, .x-bg li, .x-bg table,
 .x-bg form select												{ font-size:15px; color:#000; word-wrap:break-word; }
 .x-bg a:link, .x-bg a:visited, .x-bg a:active	{ color:#464646; }
