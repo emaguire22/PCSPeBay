@@ -7,7 +7,7 @@ body																{ margin:0 2px !important; padding:0 !important; }
 
 /* --- general settings --- */
 .x-bg, .x-bg-02												{ width:100% !important; }
-.x-bg *															{ margin:0; padding:0; vertical-align:top; }
+.x-bg *															{ margin:0; padding:0;  } /* took out vertical-align:top; */
 .x-bg img														{ border:0; }
 
 /* --- content area bg and width --- */
