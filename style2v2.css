@@ -505,8 +505,8 @@ filter: transparent; /* IE6-9 */
 /* Template formatting
 -------------------------------------------------- */
 /* --- template titles --- */
-#CentralArea h1, #x-main h1							{ color:#444; font-family: 'visby_cfbold'; text-align:center; font-size:26px; line-height:27px; margin:0; padding:0 0 15px; } /* listing main title */
-#CentralArea h1, #x-main h1	span						{ color:#444; font-family: 'visby_cfbold'; text-align:center; font-size:26px; line-height:27px;  margin:0; padding:0 0 15px; } /* listing main title */
+#CentralArea h1, #x-main h1							{ color:#444; font-family: 'visby_cfbold'; text-align:center; font-size:24px; line-height:27px; margin:0; padding:0 0 15px; } /* listing main title */
+#CentralArea h1, #x-main h1	span						{ color:#444; font-family: 'visby_cfbold'; text-align:center; font-size:24px; line-height:27px;  margin:0; padding:0 0 15px; } /* listing main title */
 #CentralArea h5, #x-main h5		            		{ color:#c1d860; text-align:left; font-size:13px; line-height:18px; font-weight:bold; margin:0; padding:5px 0 5px; } /* listing section subtitles */
 
 /* --- template image gallery -- thumbs side --- */
